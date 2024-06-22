@@ -11,11 +11,7 @@ const carRoutes = require("./routes/car-routes");
 const cors = require("cors");
 const app = express();
 
-let allowedOrigins = [
-  "https://ecar-vagkap.web.app",
-  "http://localhost:3000",
-  "http://localhost",
-];
+let allowedOrigins = ["https://ecar-vagkap.netlify.app"];
 
 var corsOptions = {
   origin: function (origin, callback) {
