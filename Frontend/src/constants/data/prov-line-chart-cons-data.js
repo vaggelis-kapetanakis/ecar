@@ -1,0 +1,150 @@
+export const idConsLabels = [
+  "2018 Consumption",
+  "2019 Consumption",
+  "2020 Consumption",
+  "2021 Consumption",
+  "2022 Consumption",
+];
+export const xAxis = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const consColors = [
+  "#cde4fa",
+  "#9cc9f4",
+  "#6aafef",
+  "#3994e9",
+  "#0779e4",
+  "#0661b6",
+  "#044989",
+  "#03305b",
+  "#01182e",
+  "#96ccff",
+  "#73bbff",
+  "#50aaff",
+];
+
+export const consData = [
+  [
+    9.66464, 8.063861, 8.705691, 7.886506, 7.98655, 8.143276, 8.610394, 8.68992,
+    7.863674, 8.086068, 8.515365, 9.02835,
+  ],
+  [
+    9.54814, 8.39209, 8.70832, 7.676715, 7.952943, 7.918651, 8.563588, 8.566683,
+    7.867671, 7.942557, 8.396412, 8.948567,
+  ],
+  [
+    8.975, 8.368, 7.885, 6.517, 6.83, 7.277, 8.068, 8.015, 7.301, 7.478, 7.583,
+    8.714,
+  ],
+  [
+    8.963, 8.165, 8.134, 7.511, 7.723, 8.048, 8.408, 8.522, 7.731, 7.768, 8.161,
+    8.772,
+  ],
+  [9.534, 8.469, 8.554, 7.763, 7.949, 8.167, 8.609, 8.544],
+];
+
+export const totalConsumption = [101.244, 100.482, 93.012, 97.907, 67.589];
+
+export const provLineConsData = [
+  {
+    id: idConsLabels[0],
+    color: consColors[0],
+    data: [
+      { x: xAxis[0], y: consData[0][0] },
+      { x: xAxis[1], y: consData[0][1] },
+      { x: xAxis[2], y: consData[0][2] },
+      { x: xAxis[3], y: consData[0][3] },
+      { x: xAxis[4], y: consData[0][4] },
+      { x: xAxis[5], y: consData[0][5] },
+      { x: xAxis[6], y: consData[0][6] },
+      { x: xAxis[7], y: consData[0][7] },
+      { x: xAxis[8], y: consData[0][8] },
+      { x: xAxis[9], y: consData[0][9] },
+      { x: xAxis[10], y: consData[0][10] },
+      { x: xAxis[11], y: consData[0][11] },
+    ],
+  },
+  {
+    id: idConsLabels[1],
+    color: consColors[1],
+    data: [
+      { x: xAxis[0], y: consData[1][0] },
+      { x: xAxis[1], y: consData[1][1] },
+      { x: xAxis[2], y: consData[1][2] },
+      { x: xAxis[3], y: consData[1][3] },
+      { x: xAxis[4], y: consData[1][4] },
+      { x: xAxis[5], y: consData[1][5] },
+      { x: xAxis[6], y: consData[1][6] },
+      { x: xAxis[7], y: consData[1][7] },
+      { x: xAxis[8], y: consData[1][8] },
+      { x: xAxis[9], y: consData[1][9] },
+      { x: xAxis[10], y: consData[1][10] },
+      { x: xAxis[11], y: consData[1][11] },
+    ],
+  },
+  {
+    id: idConsLabels[2],
+    color: consColors[2],
+    data: [
+      { x: xAxis[0], y: consData[2][0] },
+      { x: xAxis[1], y: consData[2][1] },
+      { x: xAxis[2], y: consData[2][2] },
+      { x: xAxis[3], y: consData[2][3] },
+      { x: xAxis[4], y: consData[2][4] },
+      { x: xAxis[5], y: consData[2][5] },
+      { x: xAxis[6], y: consData[2][6] },
+      { x: xAxis[7], y: consData[2][7] },
+      { x: xAxis[8], y: consData[2][8] },
+      { x: xAxis[9], y: consData[2][9] },
+      { x: xAxis[10], y: consData[2][10] },
+      { x: xAxis[11], y: consData[2][11] },
+    ],
+  },
+  {
+    id: idConsLabels[3],
+    color: consColors[3],
+    data: [
+      { x: xAxis[0], y: consData[3][0] },
+      { x: xAxis[1], y: consData[3][1] },
+      { x: xAxis[2], y: consData[3][2] },
+      { x: xAxis[3], y: consData[3][3] },
+      { x: xAxis[4], y: consData[3][4] },
+      { x: xAxis[5], y: consData[3][5] },
+      { x: xAxis[6], y: consData[3][6] },
+      { x: xAxis[7], y: consData[3][7] },
+      { x: xAxis[8], y: consData[3][8] },
+      { x: xAxis[9], y: consData[3][9] },
+      { x: xAxis[10], y: consData[3][10] },
+      { x: xAxis[11], y: consData[3][11] },
+    ],
+  },
+  {
+    id: idConsLabels[4],
+    color: consColors[4],
+    data: [
+      { x: xAxis[0], y: consData[4][0] },
+      { x: xAxis[1], y: consData[4][1] },
+      { x: xAxis[2], y: consData[4][2] },
+      { x: xAxis[3], y: consData[4][3] },
+      { x: xAxis[4], y: consData[4][4] },
+      { x: xAxis[5], y: consData[4][5] },
+      { x: xAxis[6], y: consData[4][6] },
+      { x: xAxis[7], y: consData[4][7] },
+      /* { x: xAxis[8], y: consData[4][8] },
+        { x: xAxis[9], y: consData[4][9] },
+        { x: xAxis[10], y: consData[4][10] },
+        { x: xAxis[11], y: consData[4][11] }, */
+    ],
+  },
+];

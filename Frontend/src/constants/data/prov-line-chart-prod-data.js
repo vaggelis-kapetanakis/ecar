@@ -1,0 +1,150 @@
+export const idProdLabels = [
+  "2018 Production",
+  "2019 Production",
+  "2020 Production",
+  "2021 Production",
+  "2022 Production",
+];
+export const xAxis = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const prodColors = [
+  "#cde4fa",
+  "#9cc9f4",
+  "#6aafef",
+  "#3994e9",
+  "#0779e4",
+  "#0661b6",
+  "#044989",
+  "#03305b",
+  "#01182e",
+  "#96ccff",
+  "#73bbff",
+  "#50aaff",
+];
+
+export const prodData = [
+  [
+    7.746415, 7.208834, 7.981223, 7.603494, 7.967506, 7.867339, 8.113583,
+    8.403663, 7.988906, 8.265627, 8.181565, 8.478537,
+  ],
+  [
+    8.531678, 7.687937, 8.34368, 8.326834, 8.652165, 8.335429, 8.537893,
+    8.765957, 8.425401, 8.65213, 8.46808, 8.76354,
+  ],
+  [
+    8.781, 8.132, 8.494, 7.784, 7.489, 7.631, 8.023, 7.977, 7.71, 7.764, 7.86,
+    8.109,
+  ],
+  [
+    8.265, 6.873, 8.37, 8.009, 8.391, 8.17, 8.353, 8.418, 8.068, 8.378, 8.353,
+    8.688,
+  ],
+  [8.541, 7.775, 8.691, 8.319, 8.738, 8.574, 8.794, 8.812],
+];
+
+export const totalProduction = [95.807, 101.491, 95.753, 98.337, 68.245];
+
+export const provLineProdData = [
+  {
+    id: idProdLabels[0],
+    color: prodColors[0],
+    data: [
+      { x: xAxis[0], y: prodData[0][0] },
+      { x: xAxis[1], y: prodData[0][1] },
+      { x: xAxis[2], y: prodData[0][2] },
+      { x: xAxis[3], y: prodData[0][3] },
+      { x: xAxis[4], y: prodData[0][4] },
+      { x: xAxis[5], y: prodData[0][5] },
+      { x: xAxis[6], y: prodData[0][6] },
+      { x: xAxis[7], y: prodData[0][7] },
+      { x: xAxis[8], y: prodData[0][8] },
+      { x: xAxis[9], y: prodData[0][9] },
+      { x: xAxis[10], y: prodData[0][10] },
+      { x: xAxis[11], y: prodData[0][11] },
+    ],
+  },
+  {
+    id: idProdLabels[1],
+    color: prodColors[1],
+    data: [
+      { x: xAxis[0], y: prodData[1][0] },
+      { x: xAxis[1], y: prodData[1][1] },
+      { x: xAxis[2], y: prodData[1][2] },
+      { x: xAxis[3], y: prodData[1][3] },
+      { x: xAxis[4], y: prodData[1][4] },
+      { x: xAxis[5], y: prodData[1][5] },
+      { x: xAxis[6], y: prodData[1][6] },
+      { x: xAxis[7], y: prodData[1][7] },
+      { x: xAxis[8], y: prodData[1][8] },
+      { x: xAxis[9], y: prodData[1][9] },
+      { x: xAxis[10], y: prodData[1][10] },
+      { x: xAxis[11], y: prodData[1][11] },
+    ],
+  },
+  {
+    id: idProdLabels[2],
+    color: prodColors[2],
+    data: [
+      { x: xAxis[0], y: prodData[2][0] },
+      { x: xAxis[1], y: prodData[2][1] },
+      { x: xAxis[2], y: prodData[2][2] },
+      { x: xAxis[3], y: prodData[2][3] },
+      { x: xAxis[4], y: prodData[2][4] },
+      { x: xAxis[5], y: prodData[2][5] },
+      { x: xAxis[6], y: prodData[2][6] },
+      { x: xAxis[7], y: prodData[2][7] },
+      { x: xAxis[8], y: prodData[2][8] },
+      { x: xAxis[9], y: prodData[2][9] },
+      { x: xAxis[10], y: prodData[2][10] },
+      { x: xAxis[11], y: prodData[2][11] },
+    ],
+  },
+  {
+    id: idProdLabels[3],
+    color: prodColors[3],
+    data: [
+      { x: xAxis[0], y: prodData[3][0] },
+      { x: xAxis[1], y: prodData[3][1] },
+      { x: xAxis[2], y: prodData[3][2] },
+      { x: xAxis[3], y: prodData[3][3] },
+      { x: xAxis[4], y: prodData[3][4] },
+      { x: xAxis[5], y: prodData[3][5] },
+      { x: xAxis[6], y: prodData[3][6] },
+      { x: xAxis[7], y: prodData[3][7] },
+      { x: xAxis[8], y: prodData[3][8] },
+      { x: xAxis[9], y: prodData[3][9] },
+      { x: xAxis[10], y: prodData[3][10] },
+      { x: xAxis[11], y: prodData[3][11] },
+    ],
+  },
+  {
+    id: idProdLabels[4],
+    color: prodColors[4],
+    data: [
+      { x: xAxis[0], y: prodData[4][0] },
+      { x: xAxis[1], y: prodData[4][1] },
+      { x: xAxis[2], y: prodData[4][2] },
+      { x: xAxis[3], y: prodData[4][3] },
+      { x: xAxis[4], y: prodData[4][4] },
+      { x: xAxis[5], y: prodData[4][5] },
+      { x: xAxis[6], y: prodData[4][6] },
+      { x: xAxis[7], y: prodData[4][7] },
+      /* { x: xAxis[8], y: prodData[4][8] },
+      { x: xAxis[9], y: prodData[4][9] },
+      { x: xAxis[10], y: prodData[4][10] },
+      { x: xAxis[11], y: prodData[4][11] }, */
+    ],
+  },
+];

@@ -1,0 +1,46 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Ecar Application",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "mocha --require @babel/polyfill --require @babel/register --recursive --timeout 15000 --exit",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [
+    "backend",
+    "monolithic"
+  ],
+  "author": "Vaggelis Kapetanakis",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/register": "^7.18.9",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-fs": "^2.0.0",
+    "chai-http": "^4.3.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "JSON": "^1.0.0",
+    "json2csv": "^5.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.6.1",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2",
+    "superagent": "^8.0.0",
+    "uuid": "^9.0.0"
+  }
+}

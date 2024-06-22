@@ -1,0 +1,129 @@
+/*------------------- TOAST SUCCESS --------------------------*/
+
+.awn-toast-success {
+  background: rgb(5, 15, 50) !important;
+  color: hsl(155, 94%, 46%) !important;
+}
+
+.awn-toast-success .awn-toast-wrapper {
+  border-color: hsl(155, 94%, 46%) !important;
+}
+
+.awn-toast.awn-toast-success .fa {
+  color: hsl(155, 94%, 46%) !important;
+}
+
+.awn-toast.awn-toast-success b {
+  color: hsl(155, 94%, 46%) !important;
+}
+
+.awn-toast-success .awn-toast-progress-bar::after {
+  background: hsl(155, 94%, 46%) !important;
+}
+
+/*------------------- TOAST WARNING --------------------------*/
+
+.awn-toast-warning {
+  background: rgb(5, 15, 50) !important;
+  color: hsl(17, 81%, 50%) !important;
+}
+
+.awn-toast-warning .awn-toast-wrapper {
+  border-color: hsl(17, 81%, 50%) !important;
+}
+
+.awn-toast.awn-toast-warning .fa {
+  color: hsl(17, 81%, 50%) !important;
+}
+
+.awn-toast.awn-toast-warning b {
+  color: hsl(17, 81%, 50%) !important;
+}
+
+.awn-toast-warning .awn-toast-progress-bar::after {
+  background: hsl(17, 81%, 50%) !important;
+}
+
+/*------------------- TOAST INFO --------------------------*/
+
+.awn-toast-info {
+  background: rgb(5, 15, 50) !important;
+  color: #0779e4 !important;
+}
+
+.awn-toast-info .awn-toast-wrapper {
+  border-color: #0779e4 !important;
+}
+
+.awn-toast.awn-toast-info .fa {
+  color: #0779e4 !important;
+}
+
+.awn-toast.awn-toast-info b {
+  color: #0779e4 !important;
+}
+
+.awn-toast-info .awn-toast-progress-bar::after {
+  background: #0779e4 !important;
+}
+
+/*------------------- TOAST ALERT --------------------------*/
+
+.awn-toast-alert {
+  background: rgb(5, 15, 50) !important;
+  color: hsl(347, 81%, 50%) !important;
+}
+
+.awn-toast-alert .awn-toast-wrapper {
+  border-color: hsl(347, 81%, 50%) !important;
+}
+
+.awn-toast.awn-toast-alert .fa {
+  color: hsl(347, 81%, 50%) !important;
+}
+
+.awn-toast.awn-toast-alert b {
+  color: hsl(347, 81%, 50%) !important;
+}
+
+.awn-toast-alert .awn-toast-progress-bar::after {
+  background: hsl(347, 81%, 50%) !important;
+}
+
+@media screen and (max-width: 1700px) {
+  .awn-toast {
+    width: 300px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .awn-toast-label {
+    font-size: 0.9rem !important;
+  }
+
+  .awn-toast-wrapper {
+    text-align: left;
+    padding: 22px 40px 22px 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .awn-toast {
+    width: 280px !important;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .awn-toast {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .awn-toast {
+    width: 220px !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  .awn-toast {
+    width: 200px !important;
+  }
+}

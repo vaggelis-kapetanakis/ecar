@@ -1,0 +1,99 @@
+.g-contrast {
+  filter: contrast(10) hue-rotate(0);
+  width: 250px;
+  height: 400px;
+  background: transparent;
+  overflow: hidden;
+  animation: hueRotate 10s infinite linear;
+}
+
+.g-circle {
+  position: relative;
+  width: 225px;
+  height: 300px;
+  box-sizing: border-box;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 125px;
+    height: 125px;
+    background-color: #00ff6f;
+    border-radius: 42% 38% 62% 49% / 45%;
+    animation: rotate 10s infinite linear;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 10;
+  }
+}
+
+.g-bubbles {
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  width: 160px;
+  height: 40px;
+  transform: translate(-50%, 0);
+  border-radius: 100px 100px 0 0;
+  background-color: #00ff6f;
+}
+
+.counting-up-charging-container li {
+  position: absolute;
+  border-radius: 50%;
+  background: #00ff6f;
+}
+
+@for $i from 0 through 55 {
+  .counting-up-charging-container li:nth-child(#{$i}) {
+    $width: 5 + random(15) + px;
+    left: 35 + random(70) + px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: $width;
+    height: $width;
+    animation: moveToTop
+      #{random(1) +
+      1}s
+      ease-in-out -#{calc(random(5000) / 1000)}s
+      infinite;
+  }
+}
+
+@keyframes rotate {
+  50% {
+    border-radius: 45% / 42% 38% 58% 49%;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(720deg);
+  }
+}
+
+@keyframes moveToTop {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+    transform: translate(-50%, -280px);
+  }
+}
+
+@keyframes hueRotate {
+  100% {
+    filter: contrast(15) hue-rotate(360deg);
+  }
+}
